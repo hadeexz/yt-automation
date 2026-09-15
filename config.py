@@ -69,8 +69,8 @@ VIDEOS_PER_DAY = 3
 
 # Uploads and reports must target this channel. The Aug 30 re-auth
 # logged into Facelessclipper instead; refuse any other mine=true channel.
-SILENTVISION_CHANNEL_ID = "UCPd9S8PyrN_w9kZ9DZ5nXJA"
-SILENTVISION_CHANNEL_TITLE = "SilentVision"
+SILENTVISION_CHANNEL_ID = "UC6JlX3lps3k-ygVvNwULyKA"
+SILENTVISION_CHANNEL_TITLE = "How Come?"
 
 # One Short per window so uploads are spaced, not dumped at once.
 # Times are UTC. Nigeria is UTC+1, so these land at 8am / 3pm / 9pm.
