@@ -73,7 +73,7 @@ def generate_script(topic: dict, length_hint: str = "") -> dict:
             used = []
 
     system_prompt = (
-        "You write YouTube Shorts for SilentVision, a curiosity channel. "
+        "You write YouTube Shorts for How Come?, a curiosity channel. "
         "The videos that get traction are specific rare-animal secrets, "
         "weird human-body facts, and concrete space wow facts. "
         "Do not write motivation, finance, self-help, or generic trivia. "
@@ -93,12 +93,13 @@ def generate_script(topic: dict, length_hint: str = "") -> dict:
         "Only use a widely reported scientific fact. Do not invent numbers, "
         "percentages, or fake mechanisms. If you are not sure, pick a simpler fact. "
         "No stage directions, no emojis in the script. "
-        "Title style examples that worked: "
-        "'The SHOCKING Truth About Crocodiles Survival Secrets', "
-        "'Why You Never See Baby Birds', "
-        "'The Teaspoon That Weighs 4 Billion Tons', "
-        "'The SHOCKING Reason for the Moon's Dark Side', "
-        "'The Mantis Shrimp: Ocean's Hidden Rainbow Eye'. "
+        "Every title must start with the exact words 'How Come' followed by "
+        "a question, e.g.: "
+        "'How Come Crocodiles Can Survive Without Eating for a Year?', "
+        "'How Come You Never See Baby Pigeons?', "
+        "'How Come a Teaspoon of a Neutron Star Weighs 4 Billion Tons?', "
+        "'How Come the Moon Has a Permanent Dark Side?', "
+        "'How Come the Mantis Shrimp Sees Colors We Cannot Even Imagine?'. "
         "Title must be under 70 characters, no hashtags in the title. "
         "keywords must be concrete stock-footage search terms for that subject "
         "(animal name, habitat, planet, body part), not abstract words. "

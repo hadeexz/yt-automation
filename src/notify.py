@@ -62,7 +62,7 @@ def notify_posted(title: str, video_id: str, duration: float, window: str) -> bo
     url = f"https://www.youtube.com/watch?v={video_id}" if video_id else ""
     seconds = int(round(float(duration or 0)))
     return _post(
-        title="SilentVision posted",
+        title="How Come? posted",
         message=f"{title}\n{window} slot · {seconds}s\n{url}".strip(),
         click=url,
         tags="movie_camera,white_check_mark",
@@ -77,7 +77,7 @@ def notify_failed(window: str = "") -> bool:
     run_url = f"{server}/{repo}/actions/runs/{run_id}" if repo and run_id else ""
     slot = window or os.environ.get("POST_SLOT") or "daily"
     return _post(
-        title="SilentVision post failed",
+        title="How Come? post failed",
         message=f"The {slot} Short did not upload.\n{run_url}".strip(),
         click=run_url,
         tags="warning",
