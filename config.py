@@ -128,7 +128,7 @@ MIN_DURATION_SECONDS = 40
 MAX_DURATION_SECONDS = 55
 # Spoken at the end of every Short. Captions follow the voice.
 END_CTA = "Follow this channel if you enjoy this kind of stuff."
-FONT_SIZE = 70
+FONT_SIZE = 60
 CAPTION_COLOR = "white"
 CAPTION_HIGHLIGHT_COLOR = "#FFD700"
 
