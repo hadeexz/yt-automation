@@ -107,7 +107,7 @@ def _build_caption_clips(word_timings: list, video_duration: float):
                 method="caption",
                 size=(int(VIDEO_WIDTH * 0.85), None),
             )
-            .with_position(("center", "center"))
+            .with_position(("center", int(VIDEO_HEIGHT * 0.55)))
             .with_start(start)
             .with_duration(end - start)
         )
