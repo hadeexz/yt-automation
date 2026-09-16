@@ -123,7 +123,7 @@ def _title_card(title: str, hold: float):
     return (
         TextClip(
             text=text,
-            font_size=58,
+            font_size=46,
             color="white",
             font=CAPTION_FONT,
             stroke_color="black",
