@@ -103,6 +103,9 @@ def generate_script(topic: dict, length_hint: str = "") -> dict:
         "Title must be under 70 characters, no hashtags in the title. "
         "keywords must be concrete stock-footage search terms for that subject "
         "(animal name, habitat, planet, body part), not abstract words. "
+        "Include at least one broad, commonly-available term (e.g. 'ocean floor', "
+        "'coral reef', 'forest closeup') alongside the specific one, since rare "
+        "animals may have no exact stock footage available. "
         "Output ONLY valid JSON, no markdown fences. "
         "JSON schema: "
         '{"title": "<catchy title>", '
