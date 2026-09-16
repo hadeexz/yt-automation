@@ -100,7 +100,7 @@ def generate_script(topic: dict, length_hint: str = "") -> dict:
         "'How Come a Teaspoon of a Neutron Star Weighs 4 Billion Tons?', "
         "'How Come the Moon Has a Permanent Dark Side?', "
         "'How Come the Mantis Shrimp Sees Colors We Cannot Even Imagine?'. "
-        "Title must be under 70 characters, no hashtags in the title. "
+        "Title must be under 50 characters, no hashtags in the title. "
         "keywords must be concrete stock-footage search terms for that subject "
         "(animal name, habitat, planet, body part), not abstract words. "
         "Include at least one broad, commonly-available term (e.g. 'ocean floor', "
