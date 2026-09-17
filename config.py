@@ -14,14 +14,12 @@ load_dotenv(Path(__file__).resolve().parent / ".env")
 # facts outperform motivation and finance by a wide margin.
 TOPICS = [
     {
-        "niche": "deep_abyss_mysteries",
+        "niche": "deep_ocean_mystery",
         "prompt_hint": (
-            "Write a gripping, suspenseful script strictly in Hindi (Devanagari script). "
-            "FORMAT: Open in the first 5 seconds with a chilling question or deep mystery hook "
-            "about the unknown abyss of the ocean, followed by an astonishing, verifiable scientific fact. "
-            "End with a short curiosity sign-off. "
-            "STRICT LENGTH: Keep the script strictly between 90 and 100 Hindi words. "
-            "Do NOT exceed 100 words so TTS narration stays between 42 and 48 seconds."
+            "Write a gripping, suspenseful narration script strictly in Hindi (Devanagari script). "
+            "Start immediately with a terrifying mystery about the Mariana Trench and deep sea monsters. "
+            "STRICT WORD COUNT: The script MUST contain between 125 and 135 words total to satisfy validation. "
+            "Write in short, rapid-fire, fast-paced sentences with no unnecessary filler."
         ),
         "visual_keywords": [
             "deep ocean dark",
@@ -35,12 +33,10 @@ TOPICS = [
     {
         "niche": "unsolved_earth_phenomena",
         "prompt_hint": (
-            "Write an eerie, suspenseful script strictly in Hindi (Devanagari script). "
-            "FORMAT: Open immediately with a mind-boggling mystery about a bizarre, unexplained place on Earth "
-            "(like the eternal fires, silent zones, or magnetic hills), then reveal the unbelievable science behind it. "
-            "End with a short curiosity sign-off. "
-            "STRICT LENGTH: Keep the script strictly between 90 and 100 Hindi words. "
-            "Do NOT exceed 100 words so TTS narration stays between 42 and 48 seconds."
+            "Write an eerie, suspenseful narration script strictly in Hindi (Devanagari script). "
+            "Start with an unexplained mystery about Bermuda Triangle or silent zones on Earth. "
+            "STRICT WORD COUNT: The script MUST contain between 125 and 135 words total to satisfy validation. "
+            "Write in short, rapid-fire, fast-paced sentences with no unnecessary filler."
         ),
         "visual_keywords": [
             "mysterious cave",
@@ -55,11 +51,9 @@ TOPICS = [
         "niche": "dark_cosmic_secrets",
         "prompt_hint": (
             "Write a chilling, grand narration script strictly in Hindi (Devanagari script). "
-            "FORMAT: Open in the first line with a terrifying mystery about deep outer space "
-            "(such as silent ghost planets, the Great Attractor, or the edge of the visible universe), "
-            "followed by an astonishing fact that blows minds. "
-            "STRICT LENGTH: Keep the script strictly between 90 and 100 Hindi words. "
-            "Do NOT exceed 100 words so TTS narration stays between 42 and 48 seconds."
+            "Start with an eerie mystery about rogue black holes wandering through deep space. "
+            "STRICT WORD COUNT: The script MUST contain between 125 and 135 words total to satisfy validation. "
+            "Write in short, rapid-fire, fast-paced sentences with no unnecessary filler."
         ),
         "visual_keywords": [
             "black hole space",
@@ -71,7 +65,6 @@ TOPICS = [
         "hashtags": "#spacehorror #darkcosmos #cosmicmystery #shorts #viral",
     },
 ]
-
 
 VIDEOS_PER_DAY = 3
 
