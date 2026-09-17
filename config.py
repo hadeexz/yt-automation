@@ -14,39 +14,61 @@ load_dotenv(Path(__file__).resolve().parent / ".env")
 # facts outperform motivation and finance by a wide margin.
 TOPICS = [
     {
-        "niche": "gaming_highlights",
+        "niche": "deep_abyss_mysteries",
         "prompt_hint": (
-            "Write the entire narration script exclusively in high-energy Hindi "
-            "(Devanagari script). Cover an intense moment, trick, or glitch in Free Fire or GTA 5. "
-            "STRICT LENGTH RULE: The narration must be strictly between 90 and 100 words. "
-            "Do NOT exceed 100 words so speech duration stays strictly between 40 to 48 seconds."
+            "Write a gripping, suspenseful script strictly in Hindi (Devanagari script). "
+            "FORMAT: Open in the first 5 seconds with a chilling question or deep mystery hook "
+            "about the unknown abyss of the ocean, followed by an astonishing, verifiable scientific fact. "
+            "End with a short curiosity sign-off. "
+            "STRICT LENGTH: Keep the script strictly between 90 and 100 Hindi words. "
+            "Do NOT exceed 100 words so TTS narration stays between 42 and 48 seconds."
         ),
         "visual_keywords": [
-            "gta gameplay",
-            "video game action",
-            "esports tournament",
-            "gamer streaming",
-            "action shooter game",
+            "deep ocean dark",
+            "underwater abyss",
+            "bioluminescent sea",
+            "dark water mystery",
+            "glowing jellyfish",
         ],
-        "hashtags": "#gaming #freefire #gta5 #gamingindia #shorts",
+        "hashtags": "#oceanmystery #deepsea #unknownfacts #shorts #viral",
     },
     {
-        "niche": "viral_music_trailers",
+        "niche": "unsolved_earth_phenomena",
         "prompt_hint": (
-            "Write the entire narration script exclusively in dramatic Hindi "
-            "(Devanagari script). Focus on an intense scene or theory from Mirzapur, "
-            "Spider-Man, or viral music edits. "
-            "STRICT LENGTH RULE: The narration must be strictly between 90 and 100 words. "
-            "Do NOT exceed 100 words so speech duration stays strictly between 40 to 48 seconds."
+            "Write an eerie, suspenseful script strictly in Hindi (Devanagari script). "
+            "FORMAT: Open immediately with a mind-boggling mystery about a bizarre, unexplained place on Earth "
+            "(like the eternal fires, silent zones, or magnetic hills), then reveal the unbelievable science behind it. "
+            "End with a short curiosity sign-off. "
+            "STRICT LENGTH: Keep the script strictly between 90 and 100 Hindi words. "
+            "Do NOT exceed 100 words so TTS narration stays between 42 and 48 seconds."
         ),
         "visual_keywords": [
-            "cinematic action",
-            "movie teaser",
-            "neon concert",
-            "dramatic lighting",
-            "crime drama atmosphere",
+            "mysterious cave",
+            "abandoned place dramatic",
+            "dark misty forest",
+            "dramatic lightning",
+            "cinematic smoke dark",
         ],
-        "hashtags": "#mirzapur #spiderman #cinematic #bollywood #shorts",
+        "hashtags": "#mysteryfacts #unexplained #earthmysteries #shorts #viral",
+    },
+    {
+        "niche": "dark_cosmic_secrets",
+        "prompt_hint": (
+            "Write a chilling, grand narration script strictly in Hindi (Devanagari script). "
+            "FORMAT: Open in the first line with a terrifying mystery about deep outer space "
+            "(such as silent ghost planets, the Great Attractor, or the edge of the visible universe), "
+            "followed by an astonishing fact that blows minds. "
+            "STRICT LENGTH: Keep the script strictly between 90 and 100 Hindi words. "
+            "Do NOT exceed 100 words so TTS narration stays between 42 and 48 seconds."
+        ),
+        "visual_keywords": [
+            "black hole space",
+            "deep space galaxy",
+            "dark universe stars",
+            "astronaut lost space",
+            "mysterious nebula",
+        ],
+        "hashtags": "#spacehorror #darkcosmos #cosmicmystery #shorts #viral",
     },
 ]
 
