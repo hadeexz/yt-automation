@@ -16,11 +16,10 @@ TOPICS = [
     {
         "niche": "gaming_highlights",
         "prompt_hint": (
-            "Write the entire narration script exclusively in engaging, high-energy Hindi "
-            "(using Devanagari script). Cover an intense, viral gaming moment, secret glitch, "
-            "clutch play, or insane trick in Garena Free Fire or GTA 5. Keep the narration "
-            "fast-paced, conversational, and thrilling like Raajoo Gaming or top Indian streamers. "
-            "Do not output English narration."
+            "Write the entire narration script exclusively in high-energy Hindi "
+            "(Devanagari script). Cover an intense moment, trick, or glitch in Free Fire or GTA 5. "
+            "STRICT LENGTH RULE: The narration must be strictly between 90 and 100 words. "
+            "Do NOT exceed 100 words so speech duration stays strictly between 40 to 48 seconds."
         ),
         "visual_keywords": [
             "gta gameplay",
@@ -34,11 +33,11 @@ TOPICS = [
     {
         "niche": "viral_music_trailers",
         "prompt_hint": (
-            "Write the entire narration script exclusively in dramatic, powerful Hindi "
-            "(using Devanagari script). Focus on a mind-blowing fan theory, hidden detail, "
-            "or iconic background scene from blockbuster franchises like Mirzapur, Spider-Man, "
-            "or massive viral T-Series music video edits. Make the tone dramatic and cinematic. "
-            "Do not output English narration."
+            "Write the entire narration script exclusively in dramatic Hindi "
+            "(Devanagari script). Focus on an intense scene or theory from Mirzapur, "
+            "Spider-Man, or viral music edits. "
+            "STRICT LENGTH RULE: The narration must be strictly between 90 and 100 words. "
+            "Do NOT exceed 100 words so speech duration stays strictly between 40 to 48 seconds."
         ),
         "visual_keywords": [
             "cinematic action",
