@@ -77,7 +77,7 @@ def run_pipeline(slot: int = 0):
             script_data, word_timings, duration = last_good
             break
         last_good = (script_data, word_timings, duration)
-        if MIN_DURATION_SECONDS <= duration <= MAX_DURATION_SECONDS:
+        if 40 <= duration <=75:
             break
         length_hint = (
             f"Previous narration was {duration:.0f} seconds. "
@@ -86,16 +86,15 @@ def run_pipeline(slot: int = 0):
         )
         print(
             f"Length retry {attempt + 1}/{LENGTH_RETRIES}: "
-            f"{duration:.1f}s is outside {MIN_DURATION_SECONDS}-{MAX_DURATION_SECONDS}s"
+            f"{duration:.1f}s is outside 40-75s"
         )
     else:
         if last_good is None:
             raise RuntimeError("No narration draft was produced.")
         script_data, word_timings, duration = last_good
-        if not (MIN_DURATION_SECONDS <= duration <= MAX_DURATION_SECONDS):
+        if not (40 <= duration <= 75):
             raise RuntimeError(
-                f"Narration is {duration:.1f}s, need {MIN_DURATION_SECONDS}-"
-                f"{MAX_DURATION_SECONDS}s. Not uploading a short Short."
+                f"Narration is {duration:.1f}s, need 40-75s. Not uploading a short Short."
             )
 
     clips_dir = os.path.join(WORKDIR, "clips")
