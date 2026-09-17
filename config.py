@@ -14,53 +14,40 @@ load_dotenv(Path(__file__).resolve().parent / ".env")
 # facts outperform motivation and finance by a wide margin.
 TOPICS = [
     {
-        "niche": "rare_animals",
+        "niche": "gaming_highlights",
         "prompt_hint": (
-            "one surprising, verifiable fact about a rare, weird, or "
-            "extreme animal. Pick a specific creature people have not "
-            "heard of, or a known animal with a shocking survival trick. "
-            "Make it feel like a nature documentary secret, not a kids show."
+            "Write the entire narration script exclusively in engaging, high-energy Hindi "
+            "(using Devanagari script). Cover an intense, viral gaming moment, secret glitch, "
+            "clutch play, or insane trick in Garena Free Fire or GTA 5. Keep the narration "
+            "fast-paced, conversational, and thrilling like Raajoo Gaming or top Indian streamers. "
+            "Do not output English narration."
         ),
         "visual_keywords": [
-            "wildlife closeup",
-            "jungle animal",
-            "ocean creature",
-            "frog rainforest",
-            "crocodile river",
+            "gta gameplay",
+            "video game action",
+            "esports tournament",
+            "gamer streaming",
+            "action shooter game",
         ],
-        "hashtags": "#curiosity #education #facts #science #shorts",
+        "hashtags": "#gaming #freefire #gta5 #gamingindia #shorts",
     },
     {
-        "niche": "human_body",
+        "niche": "viral_music_trailers",
         "prompt_hint": (
-            "one surprising, verifiable fact about the human body or brain. "
-            "Something people feel every day but never understood, like a "
-            "hidden organ trick, a sense glitch, or a survival leftover."
+            "Write the entire narration script exclusively in dramatic, powerful Hindi "
+            "(using Devanagari script). Focus on a mind-blowing fan theory, hidden detail, "
+            "or iconic background scene from blockbuster franchises like Mirzapur, Spider-Man, "
+            "or massive viral T-Series music video edits. Make the tone dramatic and cinematic. "
+            "Do not output English narration."
         ),
         "visual_keywords": [
-            "human eye closeup",
-            "brain scan",
-            "heartbeat",
-            "hands closeup",
-            "medical science",
+            "cinematic action",
+            "movie teaser",
+            "neon concert",
+            "dramatic lighting",
+            "crime drama atmosphere",
         ],
-        "hashtags": "#curiosity #education #facts #science #shorts",
-    },
-    {
-        "niche": "space_wow",
-        "prompt_hint": (
-            "one surprising, verifiable space fact with a concrete image "
-            "people can picture: a planet, star, moon, astronaut body "
-            "change, or cosmic object. Avoid vague 'space is big' lines."
-        ),
-        "visual_keywords": [
-            "outer space stars",
-            "earth from space",
-            "astronaut",
-            "galaxy nebula",
-            "moon surface",
-        ],
-        "hashtags": "#curiosity #education #spacefacts #science #shorts",
+        "hashtags": "#mirzapur #spiderman #cinematic #bollywood #shorts",
     },
 ]
 
