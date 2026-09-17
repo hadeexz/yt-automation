@@ -1,6 +1,8 @@
 name: Daily YouTube Short
 
 on:
+  Here is the exact updated code block with the schedule converted to Indian Standard Time (IST):
+```yaml
   workflow_dispatch:
     inputs:
       slot:
@@ -13,10 +15,12 @@ on:
           - night
         default: auto
   schedule:
-    # One Short per window (US Eastern/EDT: 8am / 3pm / 9pm)
-    - cron: "0 12 * * *"
-    - cron: "0 19 * * *"
-    - cron: "0 1 * * *"
+    # 6:00 AM IST (00:30 UTC) - Morning window
+    - cron: "30 0 * * *"
+    # 1:00 PM IST (07:30 UTC) - Afternoon window
+    - cron: "30 7 * * *"
+    # 7:00 PM IST (13:30 UTC) - Night window
+    - cron: "30 13 * * *"
 
 permissions:
   contents: write
@@ -28,6 +32,9 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+```
+
 
       # GitHub can start a scheduled job hours late. Clock-based "auto"
       # then flips morning into afternoon (and afternoon into night).
